@@ -1,10 +1,10 @@
 public class Seasons {
   public static void main(String[] args) {
-    int month = 10;
+    int monthNumber = 10;
 
     String season;
 
-    switch (month) {
+    switch (monthNumber) {
       case 1:
       case 2:
       case 12:
@@ -30,6 +30,6 @@ public class Seasons {
         break;
     }
 
-    System.out.println("Місяць номер: " + month + " це пора року: " + season + ".");
+    System.out.println("Місяць номер: " + monthNumber + " це пора року: " + season + ".");
   }
 }
